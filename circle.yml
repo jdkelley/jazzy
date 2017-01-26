@@ -1,6 +1,8 @@
 machine:
   xcode:
     version: "8.2"
+  environment:
+    XCODE_WORKSPACE: SourceKitten/SourceKitten.xcworkspace
 
 checkout:
   post:
